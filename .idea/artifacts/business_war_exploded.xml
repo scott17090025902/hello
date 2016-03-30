@@ -34,6 +34,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.2.15.RELEASE" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.36" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.7.1" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.7.1" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.15.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:3.2.15.RELEASE" />
         </element>

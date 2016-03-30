@@ -597,7 +597,10 @@
                 <version>${slf4j.version}</version>
                 <scope>runtime</scope>
             </dependency>
-
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+            </dependency>
             <!-- GENERAL UTILS begin -->
             <dependency>
                 <groupId>org.apache.commons</groupId>
