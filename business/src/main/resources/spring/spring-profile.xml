@@ -12,11 +12,10 @@
     <import resource="spring-schedule.xml"/>
     <import resource="spring-datasource.xml"/>
 
-    <!--<beans profile="development">
+    <beans profile="development">
         <context:property-placeholder
                 ignore-resource-not-found="false"
                 location="classpath*:/config/application.development.properties"/>
-        <import resource="spring-datasource-development.xml"/>
-    </beans>-->
+    </beans>
 </beans>
 	
