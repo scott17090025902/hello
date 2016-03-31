@@ -16,7 +16,4 @@
     <context:annotation-config />
     <context:component-scan base-package="alpha.scott.*"></context:component-scan>
 
-    <!--<bean id="defaultHandlerMapping"-->
-          <!--class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>-->
-
 </beans>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap
+        PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+        "http://java.plugbase.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="t_name">
+    <typeAlias alias="t_name" type="alpha.scott.test.model.t_name"/>
+    <typeAlias alias="SQLPager" type="org.plugbase.sql.SQLPager"/>
+    <resultMap id="t_nameresultMap" class="t_name">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <select id="Countt_name" resultClass="int">
+        select count(*) from t_name
+    </select>
+
+
+    <select id="Selectt_name" parameterClass="int" resultMap="t_nameresultMap">
+        select * from t_name where id=#id#
+    </select>
+
+</sqlMap>

@@ -98,7 +98,14 @@
             <version>1.7.1</version>
             <scope>runtime</scope>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.ibatis</groupId>
+            <artifactId>ibatis-sqlmap</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.raycloud.express</groupId>
+            <artifactId>quicloud-express-cobar-client</artifactId>
+        </dependency>
         <!-- WEB begin -->
         <dependency>
             <groupId>org.springframework</groupId>
@@ -108,6 +115,13 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
         </dependency>
+        <!-- dbcp -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+        </dependency>
+
+
     </dependencies>
     <build>
         <finalName>quicloud-express-daemon</finalName>
