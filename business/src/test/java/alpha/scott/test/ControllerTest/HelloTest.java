@@ -17,7 +17,7 @@ public class HelloTest extends BaseTest {
     private Logger logger = LoggerFactory.getLogger(HelloTest.class);
     @Test
     public void test(){
-        System.out.println("尼妹");
+        System.out.println("尼妹美");
         logger.info("尼玛");
         t_nameService.select();
     }
